@@ -1,0 +1,15 @@
+{
+    "name": "kamrul/login-syatem",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kamrulcse404",
+            "email": "kamrul.h01960@gmail.com"
+        }
+    ],
+    "require": {}
+}
