@@ -1,6 +1,15 @@
 <?php
 
-$pageTitle = 'User SignhUp';
+require_once __DIR__ . '/../vendor/autoload.php';
+use App\Controllers\UserController;
+
+
+$pageTitle = 'User SignUp';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $newUser = new UserController();
+    $newUser->userRegDataStore($_POST);
+}
 
 
 ob_start();

@@ -7,7 +7,6 @@ use PDO;
 class Database
 {
     protected static $instance;
-    // protected static $config;
 
     protected function __construct()
     {
